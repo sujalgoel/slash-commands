@@ -1,0 +1,30 @@
+{
+  "name": "slash-command",
+  "version": "1.0.0",
+  "description": "Discord bot (with Slash Commands)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujalgoel/slash-commands.git"
+  },
+  "author": "Sujal Goel",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sujalgoel/slash-commands/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord-slash-commands": "https://github.com/ShadeDevelopment/discord-slash-commands",
+    "discord.js": "^12.5.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
